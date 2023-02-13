@@ -1,0 +1,130 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    header {
+        min-width: 100%;
+    }
+
+
+    header nav ul li {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header .nav-scroller {
+
+        margin-top: 0;
+    }
+
+    .collapse nav li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li a {
+        padding: 0;
+    }
+
+    .mainTriplreyesports {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            display: flex;
+        }
+        h2 {
+            display: flex;
+        }
+        .top {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 400px;
+                display: flex;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        .video {
+            iframe {
+                width: 400px;
+            }
+        }
+    }
+
+    .mainNosotros {
+        div {
+            img {  
+                height: 30vh;
+            }
+        }
+    }
+
+    .mainTuespacio {
+        h1 {
+            div {
+                font-size: 1.5rem;
+            }
+        }
+        form {
+            div {
+                label {
+                    font-size: 1.5rem;
+                }
+                input {
+                    width: 400px;
+                }
+            }
+            div {
+                p {
+                    font-size: 1.5rem;
+                }
+                textarea {
+                    width: 400px;
+                }
+            }
+            
+        }
+    }
+
+    footer {
+        display: flex;
+    
+        div {
+            display: flex;
+            justify-content: start;
+            ul { 
+                li {
+                    margin: 0px;
+                    a{
+                        margin: 0px;
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        div {
+            h1 {
+    
+                a {
+    
+                    font-size: 1rem;
+                }
+            }
+            a {
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,123 @@
+@import "./mixins";
+
+* {
+    @include margin-padding-fon
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    height: 10vh;
+    background-color: #353a40;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+
+
+        h1 {
+            a {
+                color: bisque;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #428881;
+            }
+        }
+
+        a {
+            img {
+                width: 70px;
+            }
+        }
+    }
+
+
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        margin: 20px;
+
+        ul {
+
+            display: flex;
+
+            li {
+
+                font-size: 20px;
+                margin: 1px;
+                list-style-type: none;
+
+                a {
+                    color: bisque;
+                    text-decoration: none;
+                    padding: 20px;
+                }
+
+                a:hover {
+                    color: #428881;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    height: 10vh;
+    background-color: #353a40;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+
+            li {
+                padding: 10px;
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    div {
+        h1 {
+            a {
+                color: bisque;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #428881;
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            img {
+                width: 70px;
+            }
+        }
+    }
+}
